@@ -3,7 +3,12 @@
     <TheHeader></TheHeader>
     <main>
       <!-- banner nero vuoto -->
-      <div>--> Content Goes here >-- </div>
+      <div class="black_banner">
+        <div class="container">
+          <h4 class="py-5">--> Content Goes here >-- </h4>
+        </div>
+        
+      </div>
 
       <BannerBlue></BannerBlue>
       <TheFooter></TheFooter>
@@ -13,10 +18,10 @@
 </template>
 
 <script>
-import TheHeader from './components/TheHeader.vue'
-import BannerBlue from './components/BannerBlue.vue'
-import TheFooter from './components/TheFooter.vue'
-import BannerFooter from './components/BannerFooter.vue' 
+import TheHeader from './components/TheHeader.vue';
+import BannerBlue from './components/BannerBlue.vue';
+import TheFooter from './components/TheFooter.vue';
+import BannerFooter from './components/BannerFooter.vue';
 
 export default {
   name: 'App',
@@ -34,8 +39,11 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+}
+
+.black_banner {
+  background-color: black;
+  color: white;
 }
 </style>
