@@ -2,7 +2,7 @@
 <template>
 <!-- deve SEMPRE contenere un div all'interno del template 
     dentro andrà TUTTO l'HTML da scrivere -->
-    <div class="footer_bg_color py-2">
+    <div class="footer_bg_color py-2 sticky-bottom">
         <div class="container">
             <nav class="d-flex justify-content-between pt-2">
                 <div class="d-flex justify-content-between align-items-center btn_signup">
