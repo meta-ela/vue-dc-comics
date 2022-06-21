@@ -2,27 +2,27 @@
 <template>
 <!-- deve SEMPRE contenere un div all'interno del template 
     dentro andrà TUTTO l'HTML da scrivere -->
-    <footer>
+    <footer class="py-5">
         <div class="container">
             <div class="row">
                 <div class="col">
                     <!-- due colonne verticali -->
                     <div class="row flex-column">
                         <div class="col">
-                            <h4>DC COMICS</h4>
+                            <h4 class="text-white fw-bold">DC COMICS</h4>
                             <ul class="list-unstyled">
                                 <li v-for="link in dcComicsLinks" :key="link">
-                                    <a class="nav-link active text-white" aria-current="page" :href="link.href">
+                                    <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
                                     {{link.name}}
                                     </a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col">
-                            <h4>SHOP</h4>
+                            <h4 class="text-white fw-bold">SHOP</h4>
                             <ul class="list-unstyled">
                                 <li v-for="link in shopLinks" :key="link">
-                                    <a class="nav-link active text-white" aria-current="page" :href="link.href">
+                                    <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
                                     {{link.name}}
                                     </a>
                                 </li>
@@ -31,27 +31,27 @@
                     </div>
                 </div>
                 <div class="col">
-                    <h4>DC</h4>
+                    <h4 class="text-white fw-bold">DC</h4>
                     <ul class="list-unstyled">
                         <li v-for="link in dcLinks" :key="link">
-                            <a class="nav-link active text-white" aria-current="page" :href="link.href">
+                            <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
                             {{link.name}}
                             </a>
                         </li>
                     </ul>
                 </div>
                 <div class="col">
-                    <h4>SITES</h4>
+                    <h4 class="text-white fw-bold">SITES</h4>
                     <ul class="list-unstyled">
                         <li v-for="link in sitesLinks" :key="link">
-                            <a class="nav-link active text-white" aria-current="page" :href="link.href">
+                            <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
                             {{link.name}}
                             </a>
                         </li>
                     </ul>
                 </div>
                 <!-- colonna grande laterale destra con logo in background -->
-                <div class="col">
+                <div class="col-6">
                     <div class="footer_logo">
                     </div>
                 </div>
