@@ -3,13 +3,13 @@
 <!-- deve SEMPRE contenere un div all'interno del template 
     dentro andrà TUTTO l'HTML da scrivere -->
     <div class="container">
-        <nav class="d-flex justify-content-between pt-3">
-            <div class="img_logo">
+        <nav class="d-flex justify-content-between pt-2">
+            <div class="img_logo mb-2">
                 <img class="w-100" src="/img/dc-logo.png" alt="DC Logo"/>
             </div>
             <ul class="nav">
                 <li class="nav-item" v-for="link in navLinks" :key="link">
-                    <a class="nav-link active" aria-current="page" :href="link.href">{{link.name}}</a>
+                    <a class="nav-link active text-dark" aria-current="page" :href="link.href">{{link.name}}</a>
                 </li>
             </ul>
         </nav>
@@ -78,6 +78,12 @@ export default {
 .img_logo {
     width: 60px;
     height: 60px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 </style>
 

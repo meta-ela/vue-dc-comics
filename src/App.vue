@@ -9,9 +9,9 @@
         </div>
       </div>
       <BannerBlue></BannerBlue>
-      <TheFooter></TheFooter>
-      <BannerFooter></BannerFooter>
     </main>
+    <TheFooter></TheFooter>
+    <BannerFooter></BannerFooter>
   </div>
 </template>
 

@@ -6,7 +6,7 @@
         <div class="container">
             <ul class="nav justify-content-between">
                 <li class="nav-item" v-for="link in bannerLinks" :key="link">
-                    <a class="nav-link banner_blue_link active" aria-current="page" :href="link.href">
+                    <a class="nav-link active text-white" aria-current="page" :href="link.href">
                             <img class="img_logo me-2" :src="link.img" :alt="link.name">
                         {{link.name}}
                     </a>
@@ -60,7 +60,4 @@ export default {
 
 <!-- dove andrà tutto lo styling riguardante il BannerBlue della pagina -->
 <style>
-.nav-link.banner_blue_link {
-    color: white;
-}
 </style>
