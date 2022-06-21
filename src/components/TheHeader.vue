@@ -4,8 +4,8 @@
     dentro andrà TUTTO l'HTML da scrivere -->
     <div class="container">
         <nav class="d-flex justify-content-between pt-3">
-            <div>
-                <img class="img_logo" src="/img/dc-logo.png" alt="DC Logo"/>
+            <div class="img_logo">
+                <img class="w-100" src="/img/dc-logo.png" alt="DC Logo"/>
             </div>
             <ul class="nav">
                 <li class="nav-item" v-for="link in navLinks" :key="link">
@@ -77,6 +77,7 @@ export default {
 <style>
 .img_logo {
     width: 60px;
+    height: 60px;
 }
 </style>
 
