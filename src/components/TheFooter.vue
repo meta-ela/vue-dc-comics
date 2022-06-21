@@ -2,57 +2,58 @@
 <template>
 <!-- deve SEMPRE contenere un div all'interno del template 
     dentro andrà TUTTO l'HTML da scrivere -->
-    <footer class="py-5">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <!-- due colonne verticali -->
-                    <div class="row flex-column">
-                        <div class="col">
-                            <h4 class="text-white fw-bold">DC COMICS</h4>
-                            <ul class="list-unstyled">
-                                <li v-for="link in dcComicsLinks" :key="link">
-                                    <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
-                                    {{link.name}}
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col">
-                            <h4 class="text-white fw-bold">SHOP</h4>
-                            <ul class="list-unstyled">
-                                <li v-for="link in shopLinks" :key="link">
-                                    <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
-                                    {{link.name}}
-                                    </a>
-                                </li>
-                            </ul>
+    <footer>
+        <div class="container position-relative overflow-hidden">
+            <div class="py-5">
+                <div class="row">
+                    <div class="col">
+                        <!-- due colonne verticali -->
+                        <div class="row flex-column">
+                            <div class="col">
+                                <h4 class="text-white fw-bold">DC COMICS</h4>
+                                <ul class="list-unstyled">
+                                    <li v-for="link in dcComicsLinks" :key="link">
+                                        <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
+                                        {{link.name}}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col">
+                                <h4 class="text-white fw-bold">SHOP</h4>
+                                <ul class="list-unstyled">
+                                    <li v-for="link in shopLinks" :key="link">
+                                        <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
+                                        {{link.name}}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col">
-                    <h4 class="text-white fw-bold">DC</h4>
-                    <ul class="list-unstyled">
-                        <li v-for="link in dcLinks" :key="link">
-                            <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
-                            {{link.name}}
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h4 class="text-white fw-bold">SITES</h4>
-                    <ul class="list-unstyled">
-                        <li v-for="link in sitesLinks" :key="link">
-                            <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
-                            {{link.name}}
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <!-- colonna grande laterale destra con logo in background -->
-                <div class="col-6">
-                    <div class="footer_logo">
+                    <div class="col">
+                        <h4 class="text-white fw-bold">DC</h4>
+                        <ul class="list-unstyled">
+                            <li v-for="link in dcLinks" :key="link">
+                                <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
+                                {{link.name}}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col">
+                        <h4 class="text-white fw-bold">SITES</h4>
+                        <ul class="list-unstyled">
+                            <li v-for="link in sitesLinks" :key="link">
+                                <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
+                                {{link.name}}
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- colonna grande laterale destra con logo in background -->
+                    <div class="col-6">
+                        <img class="banner-img" src="/img/dc-logo-bg.png" alt="DC Logo">
                     </div>
                 </div>
             </div>
@@ -185,6 +186,7 @@ export default {
 
 <!-- dove andrà tutto lo styling riguardante il footer della pagina -->
 <style>
+
 footer {
     background-image: url("/public/img/footer-bg.jpg");
     background-size: cover;
@@ -192,10 +194,11 @@ footer {
     background-repeat: no-repeat;
 }
 
-.footer_logo {
-    background-image: url("/public/img/dc-logo-bg.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.banner-img {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    bottom: 0;
+    height: 130%;
 }
 </style>
