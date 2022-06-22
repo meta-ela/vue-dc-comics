@@ -3,11 +3,10 @@
     <TheHeader></TheHeader>
     <main>
       <!-- banner nero vuoto -->
-      <div class="black_banner">
-        <div class="container">
-          <h4 class="py-5 mb-0">--> Content Goes here -- </h4>
+      <div class="jumbotron"></div>
+      <div class="container">
+        
         </div>
-      </div>
       <BannerBlue></BannerBlue>
     </main>
     <TheFooter></TheFooter>
@@ -40,8 +39,11 @@ export default {
   color: #2c3e50;
 }
 
-.black_banner {
-  background-color: black;
-  color: white;
+.jumbotron {
+  background-image: url("/public/img/jumbotron.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 330px;
 }
 </style>
