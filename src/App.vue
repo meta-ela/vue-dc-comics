@@ -2,11 +2,17 @@
   <div id="app">
     <TheHeader></TheHeader>
     <main>
-      <!-- banner nero vuoto -->
+      <!-- jumbotron pagina -->
       <div class="jumbotron"></div>
-      <div class="container">
-        
+      <!-- sezione con card -->
+      <div class="bg_black">
+        <div class="container">
+        <!-- importare il ProductsList, all'interno di questo components
+        andrà a leggere il ProductsCard -->
+        <ProductsList></ProductsList>
         </div>
+      </div>
+      <!-- banner blue pagina -->
       <BannerBlue></BannerBlue>
     </main>
     <TheFooter></TheFooter>
@@ -19,6 +25,7 @@ import TheHeader from './components/TheHeader.vue';
 import BannerBlue from './components/BannerBlue.vue';
 import TheFooter from './components/TheFooter.vue';
 import BannerFooter from './components/BannerFooter.vue';
+import ProductsList from './components/ProductsList.vue';
 
 export default {
   name: 'App',
@@ -27,7 +34,8 @@ export default {
     BannerBlue,
     TheFooter,
     BannerFooter,
-}
+    ProductsList,
+  }
 }
 </script>
 
@@ -44,6 +52,10 @@ export default {
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
-  height: 330px;
+  height: 350px;
+}
+
+.bg_black {
+  background-color: #1c1c1c;
 }
 </style>
