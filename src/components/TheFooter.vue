@@ -12,7 +12,7 @@
                             <div class="col">
                                 <h4 class="text-white fw-bold">DC COMICS</h4>
                                 <ul class="list-unstyled">
-                                    <li v-for="link in dcComicsLinks" :key="link">
+                                    <li v-for="link in dcComicsLinks" :key="link.name">
                                         <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
                                         {{link.name}}
                                         </a>
@@ -22,7 +22,7 @@
                             <div class="col">
                                 <h4 class="text-white fw-bold">SHOP</h4>
                                 <ul class="list-unstyled">
-                                    <li v-for="link in shopLinks" :key="link">
+                                    <li v-for="link in shopLinks" :key="link.name">
                                         <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
                                         {{link.name}}
                                         </a>
@@ -34,7 +34,7 @@
                     <div class="col">
                         <h4 class="text-white fw-bold">DC</h4>
                         <ul class="list-unstyled">
-                            <li v-for="link in dcLinks" :key="link">
+                            <li v-for="link in dcLinks" :key="link.name">
                                 <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
                                 {{link.name}}
                                 </a>
@@ -44,7 +44,7 @@
                     <div class="col">
                         <h4 class="text-white fw-bold">SITES</h4>
                         <ul class="list-unstyled">
-                            <li v-for="link in sitesLinks" :key="link">
+                            <li v-for="link in sitesLinks" :key="link.name">
                                 <a class="nav-link active text-white-50" aria-current="page" :href="link.href">
                                 {{link.name}}
                                 </a>

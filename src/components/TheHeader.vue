@@ -9,7 +9,7 @@
                     <img class="w-100" src="/img/dc-logo.png" alt="DC Logo"/>
                 </div>
                 <ul class="nav">
-                    <li class="nav-item" v-for="link in navLinks" :key="link">
+                    <li class="nav-item" v-for="link in navLinks" :key="link.name">
                         <a class="nav-link active text-dark" aria-current="page" :href="link.href">{{link.name}}</a>
                     </li>
                 </ul>

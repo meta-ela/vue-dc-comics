@@ -14,7 +14,7 @@
                     <div class="d-flex justify-content-between align-items-center fw-bold text-primary">
                         FOLLOW US
                     </div>
-                    <li class="nav-item" v-for="link in bannerFooterLinks" :key="link">
+                    <li class="nav-item" v-for="(link, i) in bannerFooterLinks" :key="i">
                         <a class="nav-link active" aria-current="page" :href="link.href">
                             <img :src="link.img" :alt="link.name">
                         </a>
