@@ -73,109 +73,109 @@ export default {
             dcComicsLinks: [
                 {
                     name: "Characters",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Comics",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Movies",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "TV",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Games",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Videos",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "News",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
             ],
             shopLinks: [
                 {
                     name: "Shop DC",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Shop DC Collectibles",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
             ],
             dcLinks: [
                 {
                     name: "Terms Of Use",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Privacy policy (New)",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Ad Choices",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Advertising",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Jobs",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Subscriptions",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Talent Workshops",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "CPSC Certificates",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Ratings",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Shop Help",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "Contact Us",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
             ],
             sitesLinks: [
                 {
                     name: "DC",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "MAD Magazine",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "DC Kids",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "DC Universe",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "DC Power Visa",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
             ],
         };
@@ -199,6 +199,5 @@ footer {
     top: -50px;
     right: 0;
     bottom: 0;
-    height: 130%;
 }
 </style>

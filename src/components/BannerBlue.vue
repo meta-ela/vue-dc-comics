@@ -28,27 +28,27 @@ export default {
             bannerLinks: [
                 {
                     name: "DIGITAL COMICS",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/buy-comics-digital-comics.png"
                 },
                 {
                     name: "DC MERCHANDISE",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/buy-comics-merchandise.png"
                 },
                 {
                     name: "SUBSCRIPTION",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/buy-comics-subscriptions.png"
                 },
                 {
                     name: "COMIC SHOP LOCATOR",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/buy-comics-shop-locator.png"
                 },
                 {
                     name: "DC POWER VISA",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/buy-dc-power-visa.svg"
                 },
             ],

@@ -37,27 +37,27 @@ export default {
             bannerFooterLinks: [
                 {
                     name: "Facebook",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/footer-facebook.png"
                 },
                 {
                     name: "Twitter",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/footer-twitter.png"
                 },
                 {
                     name: "YouTube",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/footer-youtube.png"
                 },
                 {
                     name: "Pinterest",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/footer-pinterest.png"
                 },
                 {
                     name: "Periscope",
-                    href: "#",
+                    href: "javascript:void(0)",
                     img: "/img/footer-periscope.png"
                 },
             ],

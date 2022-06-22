@@ -30,43 +30,43 @@ export default {
             navLinks: [
                 {
                     name: "CHARACTERS",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "COMICS",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "MOVIES",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "TV",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "GAMES",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "COLLECTIBILES",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "VIDEOS",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "FANS",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "NEWS",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
                 {
                     name: "SHOP",
-                    href: "#",
+                    href: "javascript:void(0)",
                 },
             ],
         };
