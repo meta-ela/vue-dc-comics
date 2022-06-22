@@ -185,19 +185,6 @@ export default {
 
 
 <!-- dove andrà tutto lo styling riguardante il footer della pagina -->
-<style>
+<style lang="scss">
 
-footer {
-    background-image: url("/public/img/footer-bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.banner-img {
-    position: absolute;
-    top: -50px;
-    right: 0;
-    bottom: 0;
-}
 </style>

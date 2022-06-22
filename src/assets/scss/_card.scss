@@ -1,0 +1,21 @@
+.box_img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+}
+
+
+
+.my_card:hover card_overlay {
+    opacity: 1;
+}
+
+.card_overlay {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+
+}

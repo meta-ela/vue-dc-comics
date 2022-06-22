@@ -59,8 +59,6 @@ export default {
 
 
 <!-- dove andrà tutto lo styling riguardante il BannerBlue della pagina -->
-<style>
-.icon {
-    width: 70px;
-}
+<style lang="scss">
+
 </style>

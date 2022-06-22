@@ -7,9 +7,15 @@
       <!-- sezione con card -->
       <div class="bg_black">
         <div class="container">
-        <!-- importare il ProductsList, all'interno di questo components
-        andrà a leggere il ProductsCard -->
-        <ProductsList></ProductsList>
+          <div>
+            <a class="box_blue" href="javascript:void(0)">CURRENT SERIES</a>
+          </div>
+          <!-- importare il ProductsList, all'interno di questo components
+          andrà a leggere il ProductsCard -->
+          <ProductsList></ProductsList>
+          <div>
+            <a class="box_blue" href="javascript:void(0)">LOAD MORE</a>
+          </div>
         </div>
       </div>
       <!-- banner blue pagina -->
@@ -40,22 +46,7 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
 
-.jumbotron {
-  background-image: url("/public/img/jumbotron.jpg");
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
-  height: 350px;
-}
+@import "assets/scss/main.scss";
 
-.bg_black {
-  background-color: #1c1c1c;
-}
 </style>

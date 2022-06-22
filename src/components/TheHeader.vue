@@ -76,16 +76,7 @@ export default {
 
 
 <!-- dove andrà tutto lo styling riguardante l'header della pagina -->
-<style>
-.img_logo {
-    width: 60px;
-    height: 60px;
-}
+<style lang="scss">
 
-.nav-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 </style>
 

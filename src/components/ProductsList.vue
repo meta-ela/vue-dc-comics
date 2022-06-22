@@ -6,17 +6,25 @@
         <!-- v-for nella col per stampare TUTTE le col -->
         <div class="col" v-for="product in products" :key="product.series">
             <!-- conversione in kebab-case -->
-            <ProductsCard 
+
+            <!-- versione con props object -->
+            <ProductsCard
+                :product="product"
+            ></ProductsCard>
+
+            <!-- versione con props normale -->
+            <!-- <ProductsCard 
                 :card-title="product.series"
                 :img-url="product.thumb"
-            ></ProductsCard>
+            ></ProductsCard> -->
         </div>
     </div>
 </div>
 </template>
 
 <script>
-import ProductsCard from './ProductsCard.vue';
+/* import ProductsCard from './ProductsCard.vue'; */
+import ProductsCard from './ProductsCardObj.vue';
 
 
 export default {

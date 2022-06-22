@@ -1,7 +1,7 @@
 <template>
 <div>
     <div class="box_img">
-        <img class="card_img" :src="imgUrl" :alt="`Immagine della serie ${cardTitle}`">
+        <img :src="imgUrl" :alt="`Immagine della serie ${cardTitle}`">
     </div>
     <div class="text-uppercase text-white py-2">
         {{ cardTitle }}
@@ -12,20 +12,26 @@
 <script>
 export default {
     props: {
-        cardTitle: String,
-        imgUrl: String,
-        cardPrice: String,
-        cardType: String,
+        cardTitle: {
+            type: String,
+            required: true,
+        },
+        imgUrl: {
+            type: String,
+            required: true,
+        },
+        cardPrice:{
+            type: String,
+            required: true,
+        },
+        cardType: {
+            type: String,
+            required: true,
+        },
     },
 };
 </script>
 
-<style>
-.box_img {
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    overflow: hidden;
-}
-
+<style lang="scss">
 
 </style>

@@ -68,12 +68,6 @@ export default {
 
 
 <!-- dove andrà tutto lo styling riguardante il BannerFooter della pagina -->
-<style>
-.footer_bg_color{
-    background-color: #303030;
-}
+<style lang="scss">
 
-.btn_signup {
-    border: 2px solid #0d6efd;
-}
 </style>

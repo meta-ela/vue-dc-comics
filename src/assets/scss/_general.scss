@@ -1,0 +1,39 @@
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #2c3e50;
+}
+
+.img_logo {
+    width: 60px;
+    height: 60px;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jumbotron {
+background-image: url("/public/img/jumbotron.jpg");
+background-size: cover;
+background-position: top;
+background-repeat: no-repeat;
+height: 350px;
+}
+
+.bg_black {
+background-color: #1c1c1c;
+}
+
+.box_blue {
+padding: 1rem 2.5rem;
+background-color: aqua;
+}
+
+.icon {
+    width: 70px;
+}
