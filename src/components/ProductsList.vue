@@ -1,9 +1,17 @@
 <template>
-<div>
-    <h1>PRODOTTIIIIIIIII</h1>
+<div class="py-5">
     <!-- innestare ProductsCard dove fare v-for per inserire
     i vari valori dell'array di objects products-->
-    <ProductsCard v-for="product in products" :key="product.series"></ProductsCard>
+    <div class="row row-cols-6 g-3">
+        <!-- v-for nella col per stampare TUTTE le col -->
+        <div class="col" v-for="product in products" :key="product.series">
+            <!-- conversione in kebab-case -->
+            <ProductsCard 
+                :card-title="product.series"
+                :img-url="product.thumb"
+            ></ProductsCard>
+        </div>
+    </div>
 </div>
 </template>
 
