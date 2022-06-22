@@ -1,4 +1,6 @@
 
+$dark: rgb(63, 56, 56);
+
 #app {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -31,7 +33,9 @@ background-color: #1c1c1c;
 
 .box_blue {
 padding: 1rem 2.5rem;
-background-color: aqua;
+background-color: var(--bs-blue);
+color: white;
+text-decoration: none;
 }
 
 .icon {

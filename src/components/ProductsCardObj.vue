@@ -6,7 +6,14 @@
         <div class="text-uppercase text-white py-2">
             {{ product.series }}
         </div>
-        <div class="card_overlay"></div>
+        <!-- <div class="card_overlay">
+            <div>
+                <strong>Prezzo:</strong>{{product.price}}
+            </div>
+            <div>
+                <strong>Tipologia:</strong>{{product.type}}
+            </div>
+        </div> -->
     </div>
 </template>
 
@@ -20,4 +27,5 @@ export default {
 
 <style lang="scss">
 
+    
 </style>

@@ -13,7 +13,7 @@
           <!-- importare il ProductsList, all'interno di questo components
           andrà a leggere il ProductsCard -->
           <ProductsList></ProductsList>
-          <div>
+          <div class="pb-5 text-center">
             <a class="box_blue" href="javascript:void(0)">LOAD MORE</a>
           </div>
         </div>
