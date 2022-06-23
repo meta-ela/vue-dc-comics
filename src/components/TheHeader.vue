@@ -76,7 +76,24 @@ export default {
 
 
 <!-- dove andrà tutto lo styling riguardante l'header della pagina -->
-<style lang="scss">
+<style lang="scss" scoped>
+// dentro ad uno style scoped le modifiche apportate alle classi boostrap
+// rimangono modificate SOLO qui dentro
+// importare le variabili per poterle utilizzare --> lo scoped limitia anche il scss
+@import "../assets/scss/main.scss";
+
+li {
+    border-bottom: 5px solid white;
+}
+
+li {
+    &:hover {
+        border-bottom: 5px solid $blue;
+        text-decoration: none;
+    }
+
+    
+}
 
 </style>
 

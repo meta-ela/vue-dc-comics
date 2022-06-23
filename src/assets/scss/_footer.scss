@@ -13,9 +13,16 @@ footer {
 }
 
 .footer_bg_color{
-    background-color: #303030;
+    background-color: $darkgrey;
 }
 
-.btn_signup {
-    border: 2px solid #0d6efd;
+.btn.btn_signup {
+    &:hover {
+        background-color: $blue;
+        border: 2px solid $blue;
+    }
+    border: 2px solid $blue;
+    padding: .5rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0;
 }

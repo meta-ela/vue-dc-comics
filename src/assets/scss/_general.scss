@@ -1,8 +1,7 @@
 
-$dark: rgb(63, 56, 56);
-
 #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+    /* font-family: Avenir, Helvetica, Arial, sans-serif; */
+    font-family: 'Roboto Condensed', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
@@ -20,24 +19,43 @@ $dark: rgb(63, 56, 56);
 }
 
 .jumbotron {
-background-image: url("/public/img/jumbotron.jpg");
-background-size: cover;
-background-position: top;
-background-repeat: no-repeat;
-height: 350px;
+    background-image: url("/public/img/jumbotron.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 350px;
 }
 
 .bg_black {
-background-color: #1c1c1c;
+    background-color: #1c1c1c;
 }
 
 .box_blue {
-padding: 1rem 2.5rem;
-background-color: var(--bs-blue);
-color: white;
-text-decoration: none;
+    &:hover {
+        color: white;
+        background-color: lighten( $blue, 15% );
+        /* border: 3px solid $blue; */
+    }
+
+    padding: 1rem 2.5rem;
+    background-color: var(--bs-blue);
+    color: white;
+    text-decoration: none;
+    border: 3px solid $blue;
+}
+
+.position_box_blue {
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    left: 0;
 }
 
 .icon {
     width: 70px;
+}
+
+li:hover {
+    text-decoration: underline;
+    
 }

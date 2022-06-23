@@ -6,8 +6,8 @@
         <div class="container">
             <ul class="nav justify-content-between">
                 <li class="nav-item" v-for="link in bannerLinks" :key="link.name">
+                <img class="icon me-2" :src="link.img" :alt="link.name"/>
                     <a class="nav-link active text-white" aria-current="page" :href="link.href">
-                            <img class="icon me-2" :src="link.img" :alt="link.name">
                         {{link.name}}
                     </a>
                 </li>

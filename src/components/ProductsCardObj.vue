@@ -7,10 +7,10 @@
             
             <div class="card_overlay">
                 <div>
-                    <strong>Prezzo: </strong>{{product.price}}
+                    <strong>Price: </strong>{{product.price}}
                 </div>
                 <div>
-                    <strong>Tipologia: </strong>{{product.type}}
+                    <strong>Type: </strong>{{product.type}}
                 </div>
             </div>
         </div>

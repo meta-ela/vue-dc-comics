@@ -5,8 +5,8 @@
     <div class="footer_bg_color py-2 sticky-bottom">
         <div class="container">
             <nav class="d-flex justify-content-between pt-2">
-                <div class="d-flex justify-content-between align-items-center btn_signup">
-                    <a class="btn text-white">
+                <div class="d-flex justify-content-between align-items-center">
+                    <a class="btn btn_signup text-white">
                         SIGN-UP NOW!
                     </a>
                 </div>
