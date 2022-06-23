@@ -1,3 +1,4 @@
+
 .box_img {
     width: 100%;
     aspect-ratio: 1 / 1;
@@ -8,16 +9,23 @@
 
 .my_card {
     &:hover {
-        opacity: 1;
+        .card_overlay {
+            opacity: 1;
+        }
     }
 
     .card_overlay {
+        width: 100%;
+        aspect-ratio: 1 / 1;
+        padding: 1rem;
+        color: white;
         opacity: 0;
         position: absolute;
         left: 0;
         top: 0;
         right: 0;
         bottom: 0;
-        background-color: rgba(63, 56, 56, 0.4);
+        background-color: rgba(63, 56, 56, 0.8);
+        transition: opacity ease-out;
     }
 }

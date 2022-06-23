@@ -1,19 +1,22 @@
 <template>
-    <div class="my_card">
-        <div class="box_img">
-            <img :src="product.thumb" :alt="`Immagine della serie ${product.series}`">
+    <div>
+        <div class="my_card position-relative">
+            <div class="box_img">
+                <img :src="product.thumb" :alt="`Immagine della serie ${product.series}`">
+            </div>
+            
+            <div class="card_overlay">
+                <div>
+                    <strong>Prezzo: </strong>{{product.price}}
+                </div>
+                <div>
+                    <strong>Tipologia: </strong>{{product.type}}
+                </div>
+            </div>
         </div>
         <div class="text-uppercase text-white py-2">
-            {{ product.series }}
-        </div>
-        <!-- <div class="card_overlay">
-            <div>
-                <strong>Prezzo:</strong>{{product.price}}
+                {{ product.series }}
             </div>
-            <div>
-                <strong>Tipologia:</strong>{{product.type}}
-            </div>
-        </div> -->
     </div>
 </template>
 
@@ -25,7 +28,14 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
+// dentro ad uno style scoped le modifiche apportate alle classi boostrap
+// rimangono modificate SOLO qui dentro
+// modificato la .card in _card.scss e modifico .card qui per contenere le variazioni 
 
-    
+/* .card {
+    background-color: transparent;
+    border: 0;
+} */
+
 </style>
