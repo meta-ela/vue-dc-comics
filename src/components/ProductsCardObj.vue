@@ -2,7 +2,7 @@
     <div>
         <div class="my_card position-relative">
             <div class="box_img">
-                <img :src="product.thumb" :alt="`Immagine della serie ${product.series}`">
+                <img class="w-100" :src="product.thumb" :alt="`Immagine della serie ${product.series}`">
             </div>
             
             <div class="card_overlay">
