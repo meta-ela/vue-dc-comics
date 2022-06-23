@@ -7,7 +7,7 @@
       <!-- sezione con card -->
       <div class="bg_black">
         <div class="container">
-          <div class="position-relative">
+          <div class="position-relative pb-4">
             <div class="position_box_blue">
               <a class="box_blue" href="javascript:void(0)">CURRENT SERIES</a>
             </div>

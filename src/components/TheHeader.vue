@@ -10,7 +10,7 @@
                 </div>
                 <ul class="nav">
                     <li class="nav-item" v-for="link in navLinks" :key="link.name">
-                        <a class="nav-link active text-dark" aria-current="page" :href="link.href">{{link.name}}</a>
+                        <a class="nav-link active" aria-current="page" :href="link.href">{{link.name}}</a>
                     </li>
                 </ul>
             </nav>
@@ -79,20 +79,26 @@ export default {
 <style lang="scss" scoped>
 // dentro ad uno style scoped le modifiche apportate alle classi boostrap
 // rimangono modificate SOLO qui dentro
-// importare le variabili per poterle utilizzare --> lo scoped limitia anche il scss
-@import "../assets/scss/main.scss";
+// importare le variabili per poterle utilizzare --> lo scoped limita anche il scss
+@import "../assets/scss/_variables.scss";
 
 li {
     border-bottom: 5px solid white;
 }
 
+a {
+    color: $dark;
+}
+
 li {
     &:hover {
+        a {
+            color: $blue;
+        };
+
         border-bottom: 5px solid $blue;
         text-decoration: none;
     }
-
-    
 }
 
 </style>
